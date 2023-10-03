@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Salvador Restaurante Week</h1>
+    
+    <label for="entrada">Entrada:</label>
+    <select id="entrada">
+        <option value="Entrada 1">Salada Caesar</option>
+        <option value="Entrada 2">Bruschetta de Tomate e Manjericão</option>
+        <option value="Entrada 3">Casquinha de Siri</option>
+    </select>
+    
+    <label for="prato-principal">Prato Principal:</label>
+    <select id="prato-principal">
+        <option value="Prato 1">Lagosta Grelhada com Manteiga de Alho</option>
+        <option value="Prato 2">Paella de Frutos do Mar</option>
+        <option value="Prato 3">Salmão com Molho de Maracujá</option>
+        <option value="Prato 4">Talharim com Camarões ao Molho Pesto</option>
+        <option value="Prato 5">Moqueca de Camarão</option>
+    </select>
+    
+    <label for="sobremesa">Sobremesa:</label>
+    <select id="sobremesa">
+        <option value="Sobremesa 1">Torta de Limão</option>
+        <option value="Sobremesa 2">Mousse de Maracujá</option>
+        <option value="Sobremesa 3">Cheesecake de Morango</option>
+    </select>
+    
+    <button id="mostrar-menu">Confirmar</button>
+    
+    <div id="menu-escolhido" style="display: none;">
+        <h2>Menu Escolhido</h2>
+        <div id="menu-items">
+
+        <img id="entrada-imagem-1" src="img/entrada1.jpg" alt="Entrada 1" width="150" height="150">
+        <img id="entrada-imagem-2" src="img/entrada2.jpg" alt="Entrada 2" width="150" height="150">
+        <img id="entrada-imagem-3" src="img/entrada3.jpg" alt="Entrada 3" width="150" height="150">
+
+        <img id="prato-imagem-1" src="img/prato1.jpg" alt="Prato 1" width="150" height="150">
+        <img id="prato-imagem-2" src="img/prato2.jpg" alt="Prato 2" width="150" height="150">
+        <img id="prato-imagem-3" src="img/prato3.jpg" alt="Prato 3" width="150" height="150">
+        <img id="prato-imagem-4" src="img/prato4.jpg" alt="Prato 4" width="150" height="150">
+        <img id="prato-imagem-5" src="img/prato5.jpg" alt="Prato 5" width="150" height="150">
+
+        <img id="sobremesa-imagem-1" src="img/sobremesa1.jpg" alt="Sobremesa 1" width="150" height="150">
+        <img id="sobremesa-imagem-2" src="img/sobremesa2.jpg" alt="Sobremesa 2" width="150" height="150">
+        <img id="sobremesa-imagem-3" src="img/sobremesa3.jpg" alt="Sobremesa 3" width="150" height="150">
+        
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
